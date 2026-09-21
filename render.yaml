@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: invoice-intelligence
+    runtime: docker
+    plan: free
+    dockerContext: .
+    dockerfilePath: ./backend/Dockerfile
+    healthCheckPath: /health
+    autoDeployTrigger: commit
+    envVars:
+      - key: DATABASE_PATH
+        value: /app/data/invoices.db
+      - key: GROQ_MODEL
+        value: openai/gpt-oss-20b
+      - key: GROQ_TIMEOUT_SECONDS
+        value: "20"
+      - key: GROQ_API_KEY
+        sync: false
