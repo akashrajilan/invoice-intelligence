@@ -6,7 +6,7 @@ and optional LLM structured extraction behind a polished React interface.
 
 ## Live Demo
 
-[Open Invoice Intelligence](https://invoice-intelligence-hclu.onrender.com)
+[Open Invoice Intelligence](https://invoice-intelligence-hc1u.onrender.com)
 
 > The free Render service may take up to 60 seconds to start after inactivity.
 
