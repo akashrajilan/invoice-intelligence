@@ -25,6 +25,28 @@ than an isolated AI prompt or API demo.
 - Confirmed record deletion
 - Dockerized React/Nginx frontend and FastAPI backend
 
+## Application Screenshots
+
+### Invoice Upload Interface
+
+![Invoice upload interface](docs/screenshots/invoice-upload-interface.png)
+
+### OCR Text Extraction
+
+![OCR extracted text](docs/screenshots/ocr-extracted-text.png)
+
+### Structured Invoice Results
+
+![Structured invoice results](docs/screenshots/structured-invoice-results.png)
+
+### Processing History
+
+![Invoice processing history](docs/screenshots/invoice-history.png)
+
+### Invoice Details and Export
+
+![Invoice details and export options](docs/screenshots/invoice-details-export.png)
+
 ## Architecture
 
 ```text
