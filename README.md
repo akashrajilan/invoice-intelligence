@@ -4,6 +4,12 @@ A full-stack AI document-processing application that turns PDF or image invoices
 into validated, searchable business data. It combines OCR, deterministic parsing,
 and optional LLM structured extraction behind a polished React interface.
 
+## Live Demo
+
+[Open Invoice Intelligence](https://invoice-intelligence-hclu.onrender.com)
+
+> The free Render service may take up to 60 seconds to start after inactivity.
+
 ## Why this project matters
 
 Invoice processing is a practical automation problem: teams need data extracted
@@ -65,8 +71,8 @@ Browser
 Requirements: Docker Engine with Docker Compose.
 
 ```bash
-git clone <your-repository-url>
-cd invoice-intelligence-app
+git clone https://github.com/akashrajilan/invoice-intelligence.git
+cd invoice-intelligence
 
 # Optional: enables Groq structured extraction.
 cp backend/.env.example .env
